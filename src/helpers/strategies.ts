@@ -1,5 +1,5 @@
 const requireFile = require.context(
-  '@snapshot-labs/snapshot.js/src/strategies',
+  '@xiaoch05/snapshot.js/src/strategies',
   true,
   /index\.ts$/
 );

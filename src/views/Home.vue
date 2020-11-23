@@ -65,7 +65,7 @@
 <script>
 import { mapActions } from 'vuex';
 import orderBy from 'lodash/orderBy';
-import spotlight from '@snapshot-labs/snapshot-spaces/spaces/spotlight.json';
+import spotlight from '@xiaoch05/snapshot-spaces/spaces/spotlight.json';
 
 export default {
   data() {

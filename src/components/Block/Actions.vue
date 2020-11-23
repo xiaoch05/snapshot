@@ -15,7 +15,7 @@
 
 <script>
 import { mapActions } from 'vuex';
-import plugins from '@snapshot-labs/snapshot.js/src/plugins';
+import plugins from '@xiaoch05/snapshot.js/src/plugins';
 
 export default {
   props: ['id', 'space', 'payload', 'results'],

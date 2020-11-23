@@ -202,11 +202,11 @@
 <script>
 import { mapActions } from 'vuex';
 import { getAddress } from '@ethersproject/address';
-import { ipfsGet } from '@snapshot-labs/snapshot.js/src/utils';
-import { validateSchema } from '@snapshot-labs/snapshot.js/src/utils';
-import schemas from '@snapshot-labs/snapshot.js/src/schemas';
-import getProvider from '@snapshot-labs/snapshot.js/src/utils/provider';
-import networks from '@snapshot-labs/snapshot.js/src/networks.json';
+import { ipfsGet } from '@xiaoch05/snapshot.js/src/utils';
+import { validateSchema } from '@xiaoch05/snapshot.js/src/utils';
+import schemas from '@xiaoch05/snapshot.js/src/schemas';
+import getProvider from '@xiaoch05/snapshot.js/src/utils/provider';
+import networks from '@xiaoch05/snapshot.js/src/networks.json';
 import { resolveContent } from '@/helpers/web3';
 import { clone } from '@/helpers/utils';
 

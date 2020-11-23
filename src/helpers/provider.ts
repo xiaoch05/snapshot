@@ -1,5 +1,5 @@
 import { JsonRpcProvider } from '@ethersproject/providers';
-import networks from '@snapshot-labs/snapshot.js/src/networks.json';
+import networks from '@xiaoch05/snapshot.js/src/networks.json';
 
 const providers = {};
 

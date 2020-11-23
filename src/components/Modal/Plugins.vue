@@ -61,7 +61,7 @@
 </template>
 
 <script>
-import plugins from '@snapshot-labs/snapshot.js/src/plugins';
+import plugins from '@xiaoch05/snapshot.js/src/plugins';
 import { clone } from '@/helpers/utils';
 
 export default {
@@ -90,7 +90,7 @@ export default {
   },
   methods: {
     getLogoUrl(plugin) {
-      return `https://raw.githubusercontent.com/snapshot-labs/snapshot.js/master/src/plugins/${plugin}/logo.png`;
+      return `https://raw.githubusercontent.com/xiaoch05/snapshot.js/master/src/plugins/${plugin}/logo.png`;
     }
   }
 };

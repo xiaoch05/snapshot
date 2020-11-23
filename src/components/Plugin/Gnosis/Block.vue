@@ -65,8 +65,8 @@
 </template>
 
 <script>
-import Plugin from '@snapshot-labs/snapshot.js/src/plugins/gnosis';
-import getProvider from '@snapshot-labs/snapshot.js/src/utils/provider';
+import Plugin from '@xiaoch05/snapshot.js/src/plugins/gnosis';
+import getProvider from '@xiaoch05/snapshot.js/src/utils/provider';
 
 export default {
   props: ['proposalConfig'],

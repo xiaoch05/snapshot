@@ -30,7 +30,7 @@
 
 <script>
 import { mapActions } from 'vuex';
-import { sendTransaction } from '@snapshot-labs/snapshot.js/src/utils';
+import { sendTransaction } from '@xiaoch05/snapshot.js/src/utils';
 import { formatBytes32String } from '@ethersproject/strings';
 import { contractAddress } from '@/helpers/delegation';
 import abi from '@/helpers/abi';

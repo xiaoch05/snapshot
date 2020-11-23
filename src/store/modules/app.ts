@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import { getInstance } from '@snapshot-labs/lock/plugins/vue';
-import { ipfsGet, getScores } from '@snapshot-labs/snapshot.js/src/utils';
-import getProvider from '@snapshot-labs/snapshot.js/src/utils/provider';
+import { ipfsGet, getScores } from '@xiaoch05/snapshot.js/src/utils';
+import getProvider from '@xiaoch05/snapshot.js/src/utils/provider';
 import client from '@/helpers/client';
 import { formatProposal, formatProposals, formatSpace } from '@/helpers/utils';
 import { getBlockNumber, signMessage } from '@/helpers/web3';
